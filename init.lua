@@ -23,3 +23,9 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.bo.keywordprg = ":LookupGLSL"
   end,
 })
+
+vim.filetype.add({
+  extension = {
+    frag = "glsl",
+  },
+})
