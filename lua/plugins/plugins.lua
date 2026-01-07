@@ -30,9 +30,7 @@ return {
     },
   },
   {
-    "folke/noice.nvim",
-    commit = "d9328ef",
-  },
+--    "folke/noice.nvim", commit = "d9328ef", },
   -- add jsonls and schemastore packages, and setup treesitter for json, json5 and jsonc
 
   -- add any tools you want to have installed below
